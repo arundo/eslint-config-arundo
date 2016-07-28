@@ -1,42 +1,15 @@
-/**
- * Copyright 2016 Arundo Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-'use strict';
-
 module.exports = {
-    "env":{
-        "node": true,
-        "mocha": true
+    plugins: 'react',
+    extends: 'plugin:react/recommended',
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
+        },
     },
-    "extends": ["plugin:react/recommended"],
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "ecmaFeatures": {
-            "jsx": true
-        }
+    ecmaFeatures: {
+        jsx: true,
     },
-    "plugins": [
-        "react"
-    ],
     "rules": {
-        "arrow-parens": [2, "always"],
-        "comma-dangle": [2, "always-multiline"],
-        "indent": [2, 4],
-        "jsx-quotes": 2,
-        "max-len": [1, 120, 4],
         "react/jsx-boolean-value": 2,
         "react/jsx-closing-bracket-location": 2,
         "react/jsx-curly-spacing": 2,
@@ -67,7 +40,17 @@ module.exports = {
         "react/require-extension": 2,
         "react/require-render-return": 2,
         "react/wrap-multilines": 2,
-        "space-before-blocks": [2, "never"]
-    }
+    },
+    settings: {
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.json'],
+            },
+        },
+        react: {
+            pragma: 'React',
+            version: '15',
+        },
+    },
 };
 
