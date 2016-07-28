@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-arundo",
+  "version": "0.0.1",
+  "description": "> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Arundo](http://arundo.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arundo/eslint-config-arundo.git"
+  },
+  "author": "Tucker Cowie <tucker.cowie@arundo.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arundo/eslint-config-arundo/issues"
+  },
+  "homepage": "https://github.com/arundo/eslint-config-arundo#readme",
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint-plugin-react": "^5.2.2"
+  }
+}
