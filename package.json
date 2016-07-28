@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://TuckerCowie@github.com/arundo/eslint-config-arundo.git"
+    "url": "git+https://github.com/arundo/eslint-config-arundo.git"
   },
   "author": "Tucker Cowie <tucker.cowie@arundo.com>",
   "license": "Apache-2.0",
