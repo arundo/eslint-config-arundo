@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/arundo/eslint-config-arundo#readme",
   "peerDependencies": {
+    "eslint": "^2.13.1",
     "eslint-plugin-react": "^5.2.2"
   }
 }
