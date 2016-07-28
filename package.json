@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": ["rules"],
+  "files": [
+    "rules"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arundo/eslint-config-arundo.git"
@@ -20,5 +22,8 @@
   "peerDependencies": {
     "eslint": "^2.13.1",
     "eslint-plugin-react": "^5.2.2"
+  },
+  "dependencies": {
+    "babel-eslint": "^6.1.2"
   }
 }

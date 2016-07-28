@@ -19,6 +19,7 @@ module.exports = {
         "node": true,
         "mocha": true
     },
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 7,
         "ecmaFeatures": {
