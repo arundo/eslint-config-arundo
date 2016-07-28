@@ -1,14 +1,6 @@
 module.exports = {
-    plugins: 'react',
-    extends: 'plugin:react/recommended',
-    parserOptions: {
-        ecmaFeatures: {
-            jsx: true,
-        },
-    },
-    ecmaFeatures: {
-        jsx: true,
-    },
+    plugins: ['react'],
+    extends: ['plugin:react/recommended'],
     "rules": {
         "react/jsx-boolean-value": 2,
         "react/jsx-closing-bracket-location": 2,
@@ -40,17 +32,6 @@ module.exports = {
         "react/require-extension": 2,
         "react/require-render-return": 2,
         "react/wrap-multilines": 2,
-    },
-    settings: {
-        'import/resolver': {
-            node: {
-                extensions: ['.js', '.jsx', '.json'],
-            },
-        },
-        react: {
-            pragma: 'React',
-            version: '15',
-        },
     },
 };
 
