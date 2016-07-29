@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-arundo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Arundo](http://arundo.com)",
   "main": "index.js",
   "scripts": {
