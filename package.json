@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "rules"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arundo/eslint-config-arundo.git"
@@ -26,7 +23,7 @@
     "eslint-plugin-react": "^6.1.0"
   },
   "dependencies": {
-    "babel-eslint": "^6.1.2"
+    "babel-eslint": "^6.1.2",
     "eslint-config-airbnb": "^10.0.1"
   }
 }
