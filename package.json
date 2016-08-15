@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-arundo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Arundo](http://arundo.com)",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/arundo/eslint-config-arundo#readme",
   "peerDependencies": {
-    "eslint": "^3.3.0",
-    "eslint-plugin-react": "^6.0.0"
+    "eslint": "^3.1.1",
+    "eslint-plugin-react": "^5.2.2"
   },
   "dependencies": {
     "babel-eslint": "^6.1.2"
