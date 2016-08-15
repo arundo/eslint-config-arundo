@@ -26,12 +26,12 @@ module.exports = {
             "jsx": true
         }
     },
-    extends: [
-        './rules/eslint',
-        './rules/react',
-    ].map(require.resolve),
-    // Rules are categorically managed by the files extended above
-    rules: {},
+    extends: [ 'airbnb'],
+    rules: {
+        "indent": [2, 4],
+        "space-before-blocks": [2, "never"],
+        "max-len": [1, 120, 4]
+    },
     settings: {
         'import/resolver': {
             node: {
