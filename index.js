@@ -15,17 +15,6 @@
 */
 
 module.exports = {
-    "env":{
-        "node": true,
-        "mocha": true
-    },
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "ecmaVersion": 7,
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    },
     extends: [ 'airbnb'],
     rules: {
         "indent": [ 2, 2, { "SwitchCase": 1} ],
