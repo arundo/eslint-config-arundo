@@ -15,32 +15,10 @@
 */
 
 module.exports = {
-    "env":{
-        "node": true,
-        "mocha": true
-    },
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "ecmaVersion": 7,
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    },
-    extends: [ 'airbnb'],
-    rules: {
-        "indent": [ 2, 2, { "SwitchCase": 1} ],
-        "space-before-blocks": [2, "never"],
-        "max-len": [1, 120, 4]
-    },
-    settings: {
-        'import/resolver': {
-            node: {
-                extensions: ['.js', '.jsx', '.json'],
-            },
-        },
-        react: {
-            pragma: 'React',
-            version: '15',
-        },
-    },
+  extends: ['airbnb-base'],
+  rules: {
+    "indent": [ 2, 2, { "SwitchCase": 1} ],
+    "space-before-blocks": [2, "never"],
+    "max-len": [1, 120, 4]
+  },
 };
