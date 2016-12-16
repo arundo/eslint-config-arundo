@@ -21,15 +21,4 @@ module.exports = {
         "space-before-blocks": [2, "never"],
         "max-len": [1, 120, 4]
     },
-    settings: {
-        'import/resolver': {
-            node: {
-                extensions: ['.js', '.jsx', '.json'],
-            },
-        },
-        react: {
-            pragma: 'React',
-            version: '15',
-        },
-    },
 };
