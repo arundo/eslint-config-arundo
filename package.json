@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-arundo",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Arundo](http://arundo.com)",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,6 @@
   "peerDependencies": {
     "eslint": "^3",
     "eslint-plugin-import": "^2",
-    "eslint-plugin-jsx-a11y": "^2"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^11"
