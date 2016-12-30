@@ -5,6 +5,8 @@ export default {
     "space-before-blocks": [2, "never"],
     "max-len": [1, 120, 4],
     "comma-dangle": [2, 'always-multiline'],
+    "no-underscore-dangle": 0,
+    "no-plusplus": 0,
     "import/no-extraneous-dependencies": [2, { }],
   },
 };
