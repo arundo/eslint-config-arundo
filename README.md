@@ -2,10 +2,9 @@
 
 ## Install
 
-Since this package is not hosted at NPM, be sure to specify an explicit version tag to prevent major breakage.
 
 ```
-$ npm install --save-dev arundo/eslint-config-arundo#v3.1.0
+$ npm install --save-dev eslint-config-arundo
 ```
 
 ## License
