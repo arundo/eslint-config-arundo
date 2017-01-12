@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-arundo",
+  "name": "@arundo/eslint-config-arundo",
   "version": "3.2.6",
   "description": "> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Arundo](http://arundo.com)",
   "main": "lib/index.js",
