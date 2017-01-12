@@ -1,0 +1,8 @@
+{
+  "instrumentation": {
+    "root": "./src",
+    "excludes": [
+      "*.spec.js"
+    ]
+  }
+}
