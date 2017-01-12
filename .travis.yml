@@ -10,8 +10,6 @@ branches:
 cache:
   directories:
   - node_modules
-before_deploy:
-- npm run build;
 deploy:
   provider: npm
   email: dev@arundo.com
