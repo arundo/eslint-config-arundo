@@ -1,13 +1,12 @@
 {
-  "name": "eslint-config-arundo",
-  "version": "3.2.4",
+  "name": "@arundo/eslint-config-arundo",
+  "version": "3.2.5",
   "description": "> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Arundo](http://arundo.com)",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib --ignore *.spec.js",
     "test:watch": "_mocha --compilers js:babel-register --watch-extensions .js --watch",
-    "test": "istanbul cover --config istanbul.json _mocha -- --compilers js:babel-register './src/**/*.spec.js'",
-    "publish" : "PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag $PACKAGE_VERSION && git push --tags"
+    "test": "istanbul cover --config istanbul.json _mocha -- --compilers js:babel-register './src/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
