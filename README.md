@@ -2,7 +2,7 @@
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Arundo](http://arundo.com)
 
-[![Build Status](https://travis-ci.com/arundo/eslint-config-arundo.svg?token=XyjzZE6w4GXXwTsGpxxG&branch=develop)](https://travis-ci.com/arundo/eslint-config-arundo)
+[![Build Status](https://travis-ci.org/arundo/eslint-config-arundo.svg?branch=develop)](https://travis-ci.org/arundo/eslint-config-arundo)
 
 ## Installation
 
