@@ -13,11 +13,19 @@ cache:
 before_deploy:
 - npm run build;
 deploy:
-  provider: npm
-  email: dev@arundo.com
-  api_key:
-    secure: AuY58sBXFl9P8qdyKqeJCTMkCXBCEg79I1DJx+uzfz+SJO6am2Lr2TWizaSuKMx/M0SviRFMebQPHOXo1mqzaccDdPfu+jHx3mYmfwSJlAIufS8Wq2/zpt6iblmrEqrCMYio3rg3tSLYLoIpyeGRSKoL4k0pUKmkxnLaijQtSovIdeqUYiUjZsZXJmTqhrXqPa3zPvNban8/14BeZMchleSPYpg1AGyVnmQJlJEmmx3UTv8H+ALa6+lZ9wK8f6nDLXKoTYaQrg8hj6Grr6hynsDtIOd5IdtUQnGkYMI0ArOzLhTxia3pHw6mMMGjDUaKBsUGwvMJWUXJaIEzNgXmo9Lr02N1yohW35R1fthMOqF7vXQr9iQ4uSZtAyJumokupyyCzheHKbRM/PYhmfP+avg0rNbQTK1JgRZ7Wiu5FRqUOIQ2cqsKOXP1XApwsyeGjLd/A9gH/pbVQwD/dCODqB/XKvLgwtNiyXlDC8Pit7XcuXoa8arZ+dfeSv56PPDpimfj7o4Hkm4zrDfsCPCh/J/0G0d2etPZdrQFcvM/oDtI957TVMOeBjlLvloZXMRZsilk+8WSiwTU7wf3q2rC4MnTI0jC62VzDYsG1DHaaVIuLFLbpc4CAnu1lu6K4OjT1ebYk2sg0fmnQqDnuvBgW4CBqgPkYilGtXPq2u+CkZk=
-  on:
-    skip_cleanup: true
+  - provider: npm
+    email: dev@arundo.com
+    api_key:
+      secure: AuY58sBXFl9P8qdyKqeJCTMkCXBCEg79I1DJx+uzfz+SJO6am2Lr2TWizaSuKMx/M0SviRFMebQPHOXo1mqzaccDdPfu+jHx3mYmfwSJlAIufS8Wq2/zpt6iblmrEqrCMYio3rg3tSLYLoIpyeGRSKoL4k0pUKmkxnLaijQtSovIdeqUYiUjZsZXJmTqhrXqPa3zPvNban8/14BeZMchleSPYpg1AGyVnmQJlJEmmx3UTv8H+ALa6+lZ9wK8f6nDLXKoTYaQrg8hj6Grr6hynsDtIOd5IdtUQnGkYMI0ArOzLhTxia3pHw6mMMGjDUaKBsUGwvMJWUXJaIEzNgXmo9Lr02N1yohW35R1fthMOqF7vXQr9iQ4uSZtAyJumokupyyCzheHKbRM/PYhmfP+avg0rNbQTK1JgRZ7Wiu5FRqUOIQ2cqsKOXP1XApwsyeGjLd/A9gH/pbVQwD/dCODqB/XKvLgwtNiyXlDC8Pit7XcuXoa8arZ+dfeSv56PPDpimfj7o4Hkm4zrDfsCPCh/J/0G0d2etPZdrQFcvM/oDtI957TVMOeBjlLvloZXMRZsilk+8WSiwTU7wf3q2rC4MnTI0jC62VzDYsG1DHaaVIuLFLbpc4CAnu1lu6K4OjT1ebYk2sg0fmnQqDnuvBgW4CBqgPkYilGtXPq2u+CkZk=
+    on:
+      branch: master
+      skip_cleanup: true
+  - provider: npm
+    email: dev@arundo.com
+    api_key:
+      secure: AuY58sBXFl9P8qdyKqeJCTMkCXBCEg79I1DJx+uzfz+SJO6am2Lr2TWizaSuKMx/M0SviRFMebQPHOXo1mqzaccDdPfu+jHx3mYmfwSJlAIufS8Wq2/zpt6iblmrEqrCMYio3rg3tSLYLoIpyeGRSKoL4k0pUKmkxnLaijQtSovIdeqUYiUjZsZXJmTqhrXqPa3zPvNban8/14BeZMchleSPYpg1AGyVnmQJlJEmmx3UTv8H+ALa6+lZ9wK8f6nDLXKoTYaQrg8hj6Grr6hynsDtIOd5IdtUQnGkYMI0ArOzLhTxia3pHw6mMMGjDUaKBsUGwvMJWUXJaIEzNgXmo9Lr02N1yohW35R1fthMOqF7vXQr9iQ4uSZtAyJumokupyyCzheHKbRM/PYhmfP+avg0rNbQTK1JgRZ7Wiu5FRqUOIQ2cqsKOXP1XApwsyeGjLd/A9gH/pbVQwD/dCODqB/XKvLgwtNiyXlDC8Pit7XcuXoa8arZ+dfeSv56PPDpimfj7o4Hkm4zrDfsCPCh/J/0G0d2etPZdrQFcvM/oDtI957TVMOeBjlLvloZXMRZsilk+8WSiwTU7wf3q2rC4MnTI0jC62VzDYsG1DHaaVIuLFLbpc4CAnu1lu6K4OjT1ebYk2sg0fmnQqDnuvBgW4CBqgPkYilGtXPq2u+CkZk=
+    on:
+      branch: /^release-*$/
+      skip_cleanup: true
 notifications:
   slack: arundo:QC3tXNL0ezWNGFbROfz57RcK
