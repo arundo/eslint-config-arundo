@@ -1,2 +1,11 @@
+lib
 node_modules
 npm-debug.log
+.idea
+stats.json
+coverage
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
