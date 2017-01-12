@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src --out-dir lib --ignore *.spec.js",
     "test:watch": "_mocha --compilers js:babel-register --watch-extensions .js --watch",
-    "test": "istanbul cover --config istanbul.json _mocha -- --compilers js:babel-register './src/**/*.spec.js'"
+    "test": "istanbul cover --config istanbul.json _mocha -- --compilers js:babel-register './src/**/*.spec.js'",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
