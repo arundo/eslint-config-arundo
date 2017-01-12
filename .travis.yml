@@ -12,7 +12,7 @@ cache:
   - node_modules
 before_deploy:
 - npm run build;
-- git tag v3.2.1;
+- git tag v3.2.2;
 - git push --tags
 deploy:
   provider: npm
