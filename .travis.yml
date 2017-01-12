@@ -20,7 +20,6 @@ deploy:
   api_key:
     secure: PLDrI44ib+cirL53jUM92OAY1R72YXMscC+3Y9vz80I0mN/2V5087T+Go2zn+aK2wc5dSKBWyP+fdFZFIFDVhNt0gtvV5e6radWgIqZ998NG2iblK5/gqa1S4wMe1EkjpHz0JGhkAs9xA/LFNMmmUpBA2w3EsX9suLYDRDBYsQoK3oUoTEZdu/6Fwzbo27f4ZCv8GVslru7h2hRQ/i706867KeIQ0/+XZasaECnG/AnnhTGkWXcJoQc+4KtoSs4y7s+mJLfiGuo/S/PLufDNbPQq6t0OxAkwscUyJrBT9ThzFnn9fHjDQCSkM0xfZlfR7S6a22FFjiuQQx9g5cdtem0EinN2SQD9GVd0Idq1Iq2MBJI3phkDC9ayxNaL/sttnu98L0pZSc2vbmJZ/GALTfkQArmGwwqKZ5JiUdn0OW9j0ysjKe734ChwS9Lpdcxg+ljxBUOFTcby3T/ndG1X4Hy7CDTF1TmfdsPtzmpehuGSqKBd3fBJk9RuiwqmPryds526FFeX26zFzbZOwsu/gUqp7W+rFVFdeD3iEJG4j2hYXZilkPQs6fgGmlbHUAjJwFyd4VbtA9tnPBGXPpebFU3F3XPPwhVgZG5Zae/aDUh1FKlxJB2xgiGdi889Lg9wPSEt4jRDyMK48thpyEQTPX5AlYYkEVjad9P1baRlPlE=
   on:
-    tags: true
     branch: master
     repo: arundo/eslint-config-arundo
     skip_cleanup: true
