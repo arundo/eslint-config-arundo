@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   extends: ['airbnb-base'],
   rules: {
     "indent": [ 2, 2, { "SwitchCase": 1} ],
