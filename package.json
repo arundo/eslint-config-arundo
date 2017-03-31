@@ -27,9 +27,6 @@
   "files": [
     "lib"
   ],
-  "engines": {
-    "node": "6.9.1"
-  },
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.20.0",
